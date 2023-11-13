@@ -1,0 +1,100 @@
+/* :root {
+  --hudzz-primary-color: #007bff;
+  --hudzz-primary-text-color: #ffffff;
+  --hudzz-background-color: #ffffff;
+  --hudzz-input-text-color: #000000;
+  --hudzz-secondary-input-color: #7c7c7c;
+  --hudzz-view-height: 700px;
+  --hudzz-view-width: 100%;
+} */
+
+.hudzz-root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #333333;
+  --link-color: #646cff;
+  --heading-font-family: "Helvetica Neue", Arial, sans-serif;
+  --body-font-family: "Roboto", Arial, sans-serif;
+  --border-radius: 2px;
+  /* --hudzz-primary-color-light: "#5bda74"; */
+  /* --theme-color: "#007718"; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#hudzz-root {
+  background-color: var(--hudzz-background-color);
+  height: var(--hudzz-view-height);
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+/* <div
+  style={{
+    backgroundColor: "var(--hudzz-background-color)",
+    height: "700px",
+    overflow: "hidden",
+  }}
+> */
+
+.hudzz-root a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: inherit;
+}
+
+.hudzz-root a:hover {
+  color: var(--link-color);
+}
+
+.hudzz-root body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  color: var(--background-color);
+}
+
+.hudzz-root h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.hudzz-root button:hover {
+  border-color: var(--link-color);
+}
+
+.hudzz-root button:focus,
+.hudzz-root button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.hudzz-button.hudzz-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 26px 80px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: var(--hudzz-primary-color);
+  color: var(--hudzz-primary-text-color);
+}

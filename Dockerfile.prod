@@ -1,0 +1,14 @@
+# Use an official Node.js runtime as the base image
+FROM node:14 AS build
+
+RUN yarn init -y
+
+RUN yarn add express
+
+# Uses port which is used by the actual application
+EXPOSE 3001
+
+COPY server.js .
+
+# Run application
+CMD node server.js

@@ -1,0 +1,21 @@
+services:
+  hudzz_plugin:
+    container_name: hudzz_plugin
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./dist:/dist/plugin
+    env_file:
+      - .env.prod
+    networks:
+      - hudzz_network
+
+networks:
+  hudzz_network:
+    name: hudzz_network
+    external: true
