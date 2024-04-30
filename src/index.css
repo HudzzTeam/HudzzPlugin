@@ -42,14 +42,6 @@
   padding: 0;
 }
 
-/* <div
-  style={{
-    backgroundColor: "var(--hudzz-background-color)",
-    height: "700px",
-    overflow: "hidden",
-  }}
-> */
-
 #hudzz-root a {
   font-weight: 500;
   color: var(--link-color);
