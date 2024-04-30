@@ -1,7 +1,7 @@
 === Hudzz Closing Disclosure Generator ===
 Tags: Real Estate, Closing Disclosure, HUD, Florida
-Stable tag: trunk
-License: GNU General Public License v3.0
+Stable tag: v1.0.0
+License: GPL-3.0-or-later
 License URI: https://github.com/HudzzTeam/HudzzPlugin/blob/1da7d6ac6635b9dd01c6d4b4d03203bbb1ce69b5/LICENSE
 
 Generate closing disclosure PDFs and view all your costs before closing.

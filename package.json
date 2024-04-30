@@ -7,7 +7,7 @@
     "deploy": "tsc && vite build --mode production --base=/plugin/ && scp -r ./dist webapp@app.hudzz.com:/srv/HudzzPlugin/dist",
     "build": "tsc && vite build --mode production --base=/plugin/",
     "wp-build": "vite build --mode production",
-    "wp-copy": "cp -R ./build /Users/nathanlandolt/development/hudzz/HudzzPlugin/HudzzWPDev/app/public/wp-content/plugins/hudzz-wp-plugin",
+    "wp-copy": "cp -R ./build /Users/nathanlandolt/development/hudzz/HudzzPlugin/HudzzWPDev/app/public/wp-content/plugins/hudzz-cd-generator",
     "wp-local": "yarn wp-build && yarn wp-copy",
     "preview": "vite preview",
     "test": "vitest",

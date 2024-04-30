@@ -10,7 +10,7 @@ export default function CustomButton({ children, ...props }: PassthroughProps<Bu
       {...props}
       className="hudzz-button"
       size="large"
-      style={{ backgroundColor: "var(--hudzz-primary-color)" }}
+      style={{ backgroundColor: "var(--hudzz-primary-color)", ...props.style }}
       sx={{ paddingLeft: 10, paddingRight: 10 }}
       variant="contained"
     >

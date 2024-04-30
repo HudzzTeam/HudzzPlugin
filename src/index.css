@@ -8,7 +8,7 @@
   --hudzz-view-width: 100%;
 } */
 
-.hudzz-root {
+#hudzz-root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -50,17 +50,17 @@
   }}
 > */
 
-.hudzz-root a {
+#hudzz-root a {
   font-weight: 500;
   color: var(--link-color);
   text-decoration: inherit;
 }
 
-.hudzz-root a:hover {
+#hudzz-root a:hover {
   color: var(--link-color);
 }
 
-.hudzz-root body {
+#hudzz-root body {
   margin: 0;
   display: flex;
   place-items: center;
@@ -70,17 +70,17 @@
   color: var(--background-color);
 }
 
-.hudzz-root h1 {
+#hudzz-root h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-.hudzz-root button:hover {
+#hudzz-root button:hover {
   border-color: var(--link-color);
 }
 
-.hudzz-root button:focus,
-.hudzz-root button:focus-visible {
+#hudzz-root button:focus,
+#hudzz-root button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
