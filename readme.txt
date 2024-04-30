@@ -1,6 +1,6 @@
 === Hudzz Closing Disclosure Generator ===
 Tags: Real Estate, Closing Disclosure, HUD, Florida
-Stable tag: v1.0.0
+Stable tag: 1.0.0
 License: GPL-3.0-or-later
 License URI: https://github.com/HudzzTeam/HudzzPlugin/blob/1da7d6ac6635b9dd01c6d4b4d03203bbb1ce69b5/LICENSE
 
@@ -80,6 +80,6 @@ We may modify these Terms at any time, with changes taking effect upon posting. 
 For questions or concerns about these Terms, please contact us at hudzzteam@gmail.com.
 
 == Installation ==
-Include [hudzz-plugin] shortcode on any page you want the plugin to be shown.
+Include [hudzz-cd-generator] shortcode on any page you want the plugin to be shown.
 
 To customize the color scheme and size of the plugin, go to your wordpress dashboard, choose Appearance -> Customize -> HUDZZ Custom Styles.
