@@ -36,7 +36,7 @@ export default function EndorsementsList({ onChange, selectedList }: Endorsement
   };
 
   return (
-    <FormGroup sx={{ color: "var(--hudzz-input-text-color)" }}>
+    <FormGroup sx={{ color: "var(--hudzz-closing-disclosure-generator-input-text-color)" }}>
       <Typography variant="h6">Endorsements</Typography>
       <FormControlLabel
         checked={selectedList.includes(3)}
@@ -84,7 +84,7 @@ export default function EndorsementsList({ onChange, selectedList }: Endorsement
         }
       />
       <FormControlLabel
-        sx={{ color: "var(--hudzz-input-text-color)" }}
+        sx={{ color: "var(--hudzz-closing-disclosure-generator-input-text-color)" }}
         control={<Checkbox checked={true} disabled={true} />}
         label={ENDORSEMENTS_DICT[5]}
       />

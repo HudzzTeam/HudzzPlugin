@@ -58,13 +58,14 @@ export default function RadioInput({
             control={
               <Radio
                 sx={{
-                  WP_RADIO_SX,
+                  ...WP_RADIO_SX,
                   padding: "5px",
                 }}
               />
             }
             sx={{
               WP_INPUT_PROPS,
+              WP_RADIO_SX,
             }}
           />
         ))}

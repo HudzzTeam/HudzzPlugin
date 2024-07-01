@@ -36,7 +36,7 @@ export default function FinishedActivity() {
           >
             <Typography
               sx={{
-                color: "var(--hudzz-input-text-color)",
+                color: "var(--hudzz-closing-disclosure-generator-input-text-color)",
                 fontSize: "2em",
                 padding: 5,
                 textAlign: "center",

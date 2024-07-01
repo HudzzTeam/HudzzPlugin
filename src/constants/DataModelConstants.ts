@@ -168,7 +168,7 @@ export const TRANSACTION_TYPE_ID = "transaction_type";
 export const TRANSACTION_TYPE_LABEL = "Transaction Type";
 
 export const ADDRESS_1_ID = "address1";
-export const ADDRESS_1_LABEL = "Address 1";
+export const ADDRESS_1_LABEL = "Address 1 (Required)";
 
 export const ADDRESS_2_ID = "address2";
 export const ADDRESS_2_LABEL = "Address 2";
@@ -180,16 +180,16 @@ export const CITIES_ID = "cities";
 export const CITIES_LABEL = "Cities";
 
 export const STATE_ID = "state";
-export const STATE_LABEL = "State";
+export const STATE_LABEL = "State (Required)";
 
 export const ZIP_ID = "zip_code";
 export const ZIP_LABEL = "Zip";
 
 export const COUNTY_ID = "county";
-export const COUNTY_LABEL = "County";
+export const COUNTY_LABEL = "County (Required)";
 
 export const PRICE_ID = "price";
-export const PRICE_LABEL = "Sale Price";
+export const PRICE_LABEL = "Sale Price (Required)";
 
 export const PRICE_UPPER_ID = "price_upper";
 export const PRICE_UPPER_LABEL = "Price Max";
@@ -204,7 +204,7 @@ export const SELLER_CONCESSION_ID = "seller_concession";
 export const SELLER_CONCESSION_LABEL = "Seller Concession";
 
 export const WHO_PAYS_ID = "who_pays";
-export const WHO_PAYS_LABEL = "Who Pays Owner's Title Policy?";
+export const WHO_PAYS_LABEL = "Who Pays Owner's Title Policy? (Required)";
 
 export const BUYER_NAME_ID = "buyer_name";
 export const BUYER_NAME_LABEL = "Buyer Name";
@@ -219,7 +219,7 @@ export const LENDER_NAME_ID = "lender_name";
 export const LENDER_NAME_LABEL = "Lender Name";
 
 export const TITLE_COMPANY_ID = "company";
-export const TITLE_COMPANY_LABEL = "Title Company";
+export const TITLE_COMPANY_LABEL = "Title Company (Required)";
 
 export const LOAN_ID = "loan";
 export const LOAN_LABEL = "Loan Amount";
@@ -231,7 +231,7 @@ export const PRIOR_INSURED_ID = "prior_insured";
 export const PRIOR_INSURED_LABEL = "Prior Insured Amount (For Reissue Credit)";
 
 export const CLOSING_DATE_ID = "closing_date";
-export const CLOSING_DATE_LABEL = "Closing Date";
+export const CLOSING_DATE_LABEL = "Closing Date (Required)";
 
 export const FIRST_PAYOFF_ID = "first_payoff";
 export const FIRST_PAYOFF_LABEL = "1st Payoff";

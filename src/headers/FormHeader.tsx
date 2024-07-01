@@ -13,9 +13,9 @@ const FormHeader = ({ title }: FormHeaderProps) => {
     <Paper
       sx={{
         alignItems: "center",
-        backgroundColor: "var(--hudzz-primary-color)",
+        backgroundColor: "var(--hudzz-closing-disclosure-generator-primary-color)",
         borderRadius: 0,
-        color: "var(--hudzz-primary-text-color)",
+        color: "var(--hudzz-closing-disclosure-generator-text-color)",
         display: "flex",
         height: "50px",
         paddingLeft: 2,
@@ -30,7 +30,7 @@ const FormHeader = ({ title }: FormHeaderProps) => {
         <Button
           sx={{
             alignContent: "flex-start",
-            color: "var(--hudzz-primary-text-color)",
+            color: "var(--hudzz-closing-disclosure-generator-text-color)",
             display: location.pathname === "/landing" ? "none" : "flex",
           }}
           onClick={() => navigate("/landing")}
