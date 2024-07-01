@@ -1,11 +1,10 @@
-import { Autocomplete, Paper, TextField, TextFieldProps } from "@mui/material";
+import { Autocomplete, TextField, TextFieldProps } from "@mui/material";
 import { useState } from "react";
 import { Option } from "../constants/DataModelConstants";
 import {
   WP_INPUT_LABEL_PROPS,
   WP_INPUT_PROPS,
-  WP_INPUT_SX,
-  WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR,
+  WP_INPUT_SX
 } from "../themes/wordpressTheme";
 
 export type CustomAutoCompleteProps = TextFieldProps & {
@@ -22,7 +21,7 @@ export default function CustomAutoComplete({
   value,
   onValueChange,
   disabled,
-  isValid = () => {},
+  isValid = () => { },
   required = false,
   ...props
 }: CustomAutoCompleteProps) {
@@ -36,7 +35,7 @@ export default function CustomAutoComplete({
         id={id}
         inputValue={inputValue}
         options={options}
-        PaperComponent={(props) => <Paper {...props} sx={WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR} />}
+        // PaperComponent={(props) => <Paper {...props} sx={WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR} />}
         size="small"
         sx={WP_INPUT_SX}
         value={value}

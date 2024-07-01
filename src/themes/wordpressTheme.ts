@@ -61,8 +61,8 @@ export const WP_THEMED_BUTTON = {
 };
 
 export const WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR = {
-  backgroundColor: "var(--hudzz-background-color)",
-  color: "var(--hudzz-input-text-color) !important",
+  backgroundColor: "var(--hudzz-closing-disclosure-generator-background-color)",
+  color: "var(--hudzz-closing-disclosure-generator-input-text-color) !important",
 };
 
 export const WP_RADIO_FORM_CONTROL_SX = {
