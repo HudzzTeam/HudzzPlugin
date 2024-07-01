@@ -1,12 +1,21 @@
 === Hudzz Closing Disclosure Generator ===
+Contributors: hudzzteam
 Tags: Real Estate, Closing Disclosure, HUD, Florida
 Stable tag: 1.0.1
-License: GPL-3.0-or-later
+License: GPL-3.0
 License URI: https://github.com/HudzzTeam/HudzzPlugin/blob/1da7d6ac6635b9dd01c6d4b4d03203bbb1ce69b5/LICENSE
+Tested up to: 6.5
 
 Generate closing disclosure PDFs and view all your costs before closing.
 
 == Description ==
+
+Generate closing disclosure PDFs and view all your costs before closing.
+
+To use the plugin, include the shorthand in a wordpress post. [hudzz-closing-disclosure-plugin]
+
+To customize the theme of the plugin to match your website's theme, first log in to your wordpress admin dashboard.
+Then select Appearance->Customize->Hudzz Custom Styles.
 
 Source code: https://github.com/HudzzTeam/HudzzPlugin
 
@@ -80,6 +89,6 @@ We may modify these Terms at any time, with changes taking effect upon posting. 
 For questions or concerns about these Terms, please contact us at hudzzteam@gmail.com.
 
 == Installation ==
-Include [hudzz-cd-generator] shortcode on any page you want the plugin to be shown.
+Include [hudzz-closing-disclosure-generator] shortcode on any page you want the plugin to be shown.
 
 To customize the color scheme and size of the plugin, go to your wordpress dashboard, choose Appearance -> Customize -> HUDZZ Custom Styles.
