@@ -1,7 +1,7 @@
 {
   "name": "hudzz-wordpress-plugin",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite --port 8081 --mode development",
     "deploy": "tsc && vite build --mode production --base=/plugin/ && scp -r ./dist webapp@app.hudzz.com:/srv/HudzzPlugin/dist",
