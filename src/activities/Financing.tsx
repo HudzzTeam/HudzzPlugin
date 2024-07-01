@@ -15,7 +15,7 @@ import CashThirdPartySection from "../forms/CashThirdPartySection.js";
 import MiscCostsSection from "../forms/MiscCostsSection";
 import UserInfoSection from "../forms/UserInfoSection";
 import FormHeader from "../headers/FormHeader";
-import { WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR } from "../themes/wordpressTheme";
+import { WP_THEMED_BUTTON } from "../themes/wordpressTheme";
 import {
   FinancingStatement,
   FinancingStatementRequest,
@@ -312,7 +312,7 @@ export default function Financing() {
                 variant="contained"
                 sx={{
                   width: "35%",
-                  ...WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR,
+                  ...WP_THEMED_BUTTON,
                 }}
                 onClick={handleSubmit}
               >

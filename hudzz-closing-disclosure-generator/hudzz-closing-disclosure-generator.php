@@ -48,7 +48,7 @@ function hudzz_closing_disclosure_generator_wp_enqueue_script() {
       // Enqueue the CSS for the React app
       wp_enqueue_style('hudzz-closing-disclosure-generator-app-css', plugins_url('/build/assets/index.css', __FILE__), array(), '1.0', 'all');
       
-      $custom_css = hudzz_custom_styles();
+      $custom_css = hudzz_closing_disclosure_generator_custom_styles();
       wp_add_inline_style('hudzz-closing-disclosure-generator-app-css', $custom_css);
   }
 }
@@ -158,7 +158,7 @@ function hudzz_closing_disclosure_generator_customize_register($wp_customize) {
 
 }
 
-function hudzz_custom_styles() {
+function hudzz_closing_disclosure_generator_custom_styles() {
   $styles = "
       :root {
           --hudzz-closing-disclosure-generator-primary-color: " . esc_attr(get_theme_mod('hudzz-closing-disclosure-generator-primary-color', '#16a746')) . ";
@@ -173,15 +173,9 @@ function hudzz_custom_styles() {
   return $styles;
 }
 
-// add_action('wp_head', 'hudzz_closing_disclosure_generator_wp_register_style');
-// add_action('wp_add_inline_style', 'hudzz_closing_disclosure_generator_wp_register_style');
-
-
 add_action('customize_register', 'hudzz_closing_disclosure_generator_customize_register');
 
-
 add_filter('script_loader_tag', 'hudzz_closing_disclosure_generator_add_type_attribute', 10, 3);
-
 
 add_action('wp_enqueue_scripts', 'hudzz_closing_disclosure_generator_wp_enqueue_script');
 

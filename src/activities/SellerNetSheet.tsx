@@ -20,7 +20,7 @@ import {
 import { StatementData } from "../types/Statements";
 import { UserInfo, defaultUserInfo } from "../types/UserInfo";
 
-import { WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR } from "../themes/wordpressTheme";
+import { WP_THEMED_BUTTON } from "../themes/wordpressTheme";
 
 export default function SellerNetSheet() {
   const navigate = useNavigate();
@@ -277,7 +277,7 @@ export default function SellerNetSheet() {
                 variant="contained"
                 sx={{
                   width: "35%",
-                  ...WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR,
+                  ...WP_THEMED_BUTTON,
                 }}
                 onClick={handleSubmit}
               >

@@ -16,7 +16,7 @@ import { CashStatement, CashStatementRequest, defaultCashStatement } from "../ty
 import { StatementData } from "../types/Statements";
 import { UserInfo, defaultUserInfo } from "../types/UserInfo";
 
-import { WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR } from "../themes/wordpressTheme";
+import { WP_THEMED_BUTTON } from "../themes/wordpressTheme";
 
 export default function Cash() {
   const navigate = useNavigate();
@@ -278,7 +278,7 @@ export default function Cash() {
                 variant="contained"
                 sx={{
                   width: "35%",
-                  ...WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR,
+                  ...WP_THEMED_BUTTON,
                 }}
                 onClick={handleSubmit}
               >

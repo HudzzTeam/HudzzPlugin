@@ -52,12 +52,17 @@ export const WP_SECONDARY_COLOR_AND_BACKGROUND_COLOR = {
   color: "var(--hudzz-closing-disclosure-generator-secondary-input-color)",
 };
 
-export const WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR = {
+export const WP_THEMED_BUTTON = {
   backgroundColor: "var(--hudzz-closing-disclosure-generator-primary-color)",
   color: "var(--hudzz-closing-disclosure-generator-input-text-color) !important",
   "&:hover": {
     backgroundColor: "var(--hudzz-closing-disclosure-generator-primary-color)",
   },
+};
+
+export const WP_PRIMARY_COLOR_AND_BACKGROUND_COLOR = {
+  backgroundColor: "var(--hudzz-background-color)",
+  color: "var(--hudzz-input-text-color) !important",
 };
 
 export const WP_RADIO_FORM_CONTROL_SX = {
