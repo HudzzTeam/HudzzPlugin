@@ -218,7 +218,7 @@ export const SELLER_NAME_LABEL = "Seller Name";
 export const LENDER_NAME_ID = "lender_name";
 export const LENDER_NAME_LABEL = "Lender Name";
 
-export const TITLE_COMPANY_ID = "company";
+export const TITLE_COMPANY_ID = "title_company";
 export const TITLE_COMPANY_LABEL = "Title Company (Required)";
 
 export const LOAN_ID = "loan";

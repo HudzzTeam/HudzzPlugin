@@ -29,19 +29,19 @@ import {
 export type ThirdPartySectionProps = {
   buyer_name?: string;
   closing_date: string | null;
-  company: string;
   first_payoff: number;
   onDataChange: (data: { [key: string]: FormDataValue }) => void;
   onValidChange(valid: boolean): void;
   second_payoff: number;
   seller_name: string;
+  title_company: string;
   who_pays: string;
 };
 
 export default function CashThirdPartySection({
   onDataChange,
   who_pays,
-  company,
+  title_company,
   closing_date,
   buyer_name,
   seller_name,
@@ -55,7 +55,7 @@ export default function CashThirdPartySection({
 
   const [validList, setValidList] = useState<{ [key: string]: boolean }>({
     [CLOSING_DATE_ID]: closing_date == null ? false : dayjs(closing_date)?.isValid(),
-    [TITLE_COMPANY_ID]: company !== "",
+    [TITLE_COMPANY_ID]: title_company !== "",
     [WHO_PAYS_ID]: who_pays !== "",
   });
 
@@ -101,11 +101,11 @@ export default function CashThirdPartySection({
       <SelectInput
         fullWidth
         required
-        helperText="Enter the name of the title company."
+        helperText="Enter the name of the title title_company."
         id={TITLE_COMPANY_ID}
         label={TITLE_COMPANY_LABEL}
         options={TITLE_COMPANY_OPTIONS}
-        value={company}
+        value={title_company}
         onChange={(e) => {
           handleValidationChange(TITLE_COMPANY_ID, e.target.value !== "");
           handleChange(TITLE_COMPANY_ID, e.target.value);

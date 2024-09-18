@@ -13,9 +13,9 @@ import SellerNetMiscCostsSection from "../forms/SellerNetMiscCostsSection";
 import UserInfoSection from "../forms/UserInfoSection";
 import FormHeader from "../headers/FormHeader";
 import {
-  SellerNetSheetStatement,
-  SellerNetSheetStatementRequest,
-  defaultSellerNetSheetStatement,
+    SellerNetSheetStatement,
+    SellerNetSheetStatementRequest,
+    defaultSellerNetSheetStatement,
 } from "../types/SellerNetSheetStatement";
 import { StatementData } from "../types/Statements";
 import { UserInfo, defaultUserInfo } from "../types/UserInfo";
@@ -56,7 +56,7 @@ export default function SellerNetSheet() {
     has_hoa,
     hoa_monthly,
     who_pays,
-    company,
+    title_company,
     closing_date,
     seller_name,
     property_tax,
@@ -178,7 +178,7 @@ export default function SellerNetSheet() {
     <Box key={2}>
       <CashThirdPartySection
         closing_date={closing_date}
-        company={company}
+        title_company={title_company}
         first_payoff={first_payoff}
         second_payoff={second_payoff}
         seller_name={seller_name}

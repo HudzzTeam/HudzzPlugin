@@ -177,12 +177,13 @@ add_action('customize_register', 'hudzz_closing_disclosure_generator_customize_r
 
 add_filter('script_loader_tag', 'hudzz_closing_disclosure_generator_add_type_attribute', 10, 3);
 
-add_action('wp_enqueue_scripts', 'hudzz_closing_disclosure_generator_wp_enqueue_script');
+// add_action('wp_enqueue_scripts', 'hudzz_closing_disclosure_generator_wp_enqueue_script');
 
 /**
  * Shortcode function that outputs the container div for the React app.
  */
 function hudzz_closing_disclosure_generator_wp_shortcode() {
+    hudzz_closing_disclosure_generator_wp_enqueue_script()
     return '<div id="hudzz-closing-disclosure-generator-root"></div>';
 }
 

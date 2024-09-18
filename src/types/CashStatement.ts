@@ -7,7 +7,6 @@ export type CashStatement = {
   city: string;
   closing_date: string | null;
   commission: number;
-  company: string;
   county: string;
   endorsements: number[];
   escrow_deposit: number;
@@ -22,6 +21,7 @@ export type CashStatement = {
   seller_misc: number;
   seller_name: string;
   state: string;
+  title_company: string;
   transaction_type: string;
   underwriting_fee: number;
   who_pays: string;
@@ -37,7 +37,6 @@ export const defaultCashStatement: CashStatement = {
   city: "",
   closing_date: null,
   commission: 0,
-  company: "",
   county: "",
   endorsements: [],
   escrow_deposit: 0,
@@ -52,6 +51,7 @@ export const defaultCashStatement: CashStatement = {
   seller_misc: 0,
   seller_name: "",
   state: "FL",
+  title_company: "",
   transaction_type: "Cash",
   underwriting_fee: 0,
   who_pays: "",

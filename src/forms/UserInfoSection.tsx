@@ -1,3 +1,4 @@
+import { CheckBox } from "@mui/icons-material";
 import { useState } from "react";
 import EmailTextField from "../components/EmailTextField";
 import PhoneNumberInput from "../components/PhoneNumberInput";
@@ -112,6 +113,7 @@ export default function UserInfoSection({
         }}
         onChange={(val) => handleChange(EMAIL_ID, val as string)}
       />
+      <CheckBox />
     </>
   );
 }

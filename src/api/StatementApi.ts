@@ -10,6 +10,6 @@ export const StatementApi = {
   ): Promise<AxiosResponse> {
     const response = await api.post("hud/preview/", data);
 
-    return response; //TODO: Success/fail response
+    return response;
   },
 };

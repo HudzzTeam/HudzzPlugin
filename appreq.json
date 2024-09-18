@@ -11,7 +11,7 @@
   "transaction_type": "Seller Net Sheet",
   "price": "1231231",
   "loan": 0,
-  "company": 2,
+  "title_company": 2,
   "buyer_name": "",
   "seller_name": "123123",
   "lender_name": "",
@@ -21,10 +21,7 @@
   "buyer_additional_fee": 0,
   "seller_additional_fee": "213",
   "property_tax": "213",
-  "endorsements": [
-    5,
-    6
-  ],
+  "endorsements": [5, 6],
   "has_hoa": "true",
   "buyer_misc": 0,
   "seller_misc": "213",

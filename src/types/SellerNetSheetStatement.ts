@@ -4,7 +4,7 @@ export type SellerNetSheetStatement = {
   city: string;
   closing_date: string | null;
   commission: number;
-  company: string;
+  title_company: string;
   county: string;
   first_payoff: number;
   has_hoa: boolean;
@@ -28,7 +28,7 @@ export const defaultSellerNetSheetStatement: SellerNetSheetStatement = {
   city: "",
   closing_date: null,
   commission: 0,
-  company: "",
+  title_company: "",
   county: "",
   first_payoff: 0,
   has_hoa: false,

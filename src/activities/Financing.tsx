@@ -75,7 +75,7 @@ export default function Financing() {
     seller_misc,
     seller_name,
     state,
-    company,
+    title_company,
     underwriting_fee,
     who_pays,
     zip_code,
@@ -209,10 +209,10 @@ export default function Financing() {
       <CashThirdPartySection
         buyer_name={buyer_name}
         closing_date={closing_date}
-        company={company}
         first_payoff={first_payoff}
         second_payoff={second_payoff}
         seller_name={seller_name}
+        title_company={title_company}
         who_pays={who_pays}
         onDataChange={onFieldChange}
         onValidChange={handleValidChange}

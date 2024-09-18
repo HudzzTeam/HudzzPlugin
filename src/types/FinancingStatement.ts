@@ -8,7 +8,6 @@ export type FinancingStatement = {
   city: string;
   closing_date: string | null;
   commission: number;
-  company: string;
   county: string;
   email: string;
   endorsements: number[];
@@ -31,6 +30,7 @@ export type FinancingStatement = {
   seller_misc: number;
   seller_name: string;
   state: string;
+  title_company: string;
   transaction_type: string;
   underwriting_fee: number;
   who_pays: string;
@@ -47,7 +47,6 @@ export const defaultFinancingStatement: FinancingStatement = {
   city: "",
   closing_date: null,
   commission: 0,
-  company: "",
   county: "",
   email: "",
   endorsements: [],
@@ -70,6 +69,7 @@ export const defaultFinancingStatement: FinancingStatement = {
   seller_misc: 0,
   seller_name: "",
   state: "FL",
+  title_company: "",
   transaction_type: "Financing",
   underwriting_fee: 0,
   who_pays: "",
